@@ -44,7 +44,7 @@ const swaggerOptions: SwaggerJSDocOptions = {
   definition: {
     openapi: "3.1.0",
     info: {
-      title: "SALMA App Express API with Swagger",
+      title: "FMS Wassel App Express API with Swagger",
       version: "0.1.0",
       description: "",
     },

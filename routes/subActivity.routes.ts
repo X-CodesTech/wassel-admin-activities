@@ -20,7 +20,7 @@ router.post("/", createSubActivityValidator, createSubActivity);
 router.put("/:id", updateSubActivityValidator, updateSubActivity);
 router.delete("/:id", idParamValidator, deleteSubActivity);
 router.get(
-  "/by-activity/:activityId",
+  "/sub-activities/by-activity/:activityId",
   activityParamValidator,
   getSubActivitiesByActivity
 );
