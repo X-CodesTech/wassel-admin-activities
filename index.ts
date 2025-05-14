@@ -63,8 +63,9 @@ const swaggerOptions: SwaggerJSDocOptions = {
       },
     ],
   },
-  apis: ["./docs/components/*.yaml", "./docs/paths/*.yaml"],
+  apis: ["./docs/*.ts"],
 };
+
 const specs = swaggerJSDoc(swaggerOptions);
 app.use(
   "/api-docs",

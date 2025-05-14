@@ -959,7 +959,7 @@ node-gyp-build@^4.3.0:
 
 nodemon@^3.1.10:
   version "3.1.10"
-  resolved "https://registry.npmjs.org/nodemon/-/nodemon-3.1.10.tgz"
+  resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-3.1.10.tgz#5015c5eb4fffcb24d98cf9454df14f4fecec9bc1"
   integrity sha512-WDjw3pJ0/0jMFmyNDp3gvY2YizjLmmOUQo6DEBY+JgdvW/yQ9mEeSw6H5ythl5Ny2ytb7f9C2nIbjSxMNzbJXw==
   dependencies:
     chokidar "^3.5.2"
@@ -1251,9 +1251,9 @@ tr46@^5.1.0:
   dependencies:
     punycode "^2.3.1"
 
-tsx@^4.19.1:
+tsx@^4.19.4:
   version "4.19.4"
-  resolved "https://registry.npmjs.org/tsx/-/tsx-4.19.4.tgz"
+  resolved "https://registry.yarnpkg.com/tsx/-/tsx-4.19.4.tgz#647b4141f4fdd9d773a9b564876773d2846901f4"
   integrity sha512-gK5GVzDkJK1SI1zwHf32Mqxf2tSJkNx+eYcNly5+nHvWqXUJYUkWBQtKauoESz3ymezAI++ZwT855x5p5eop+Q==
   dependencies:
     esbuild "~0.25.0"
